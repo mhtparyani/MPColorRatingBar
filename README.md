@@ -10,10 +10,12 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.mhtparyani:MPColorRatingBar:03101f3f1c'
+	        implementation 'com.github.mhtparyani:MPColorRatingBar:1.0'
 	}
+	
 Example
 1. xml
+```
 	<com.linkindia.colorratingbar.ColorRatingBar
         	android:id="@+id/rating_1"
         	android:layout_width="wrap_content"
@@ -22,7 +24,10 @@ Example
         	app:changeable="false"
         	app:empty_color="#f0f000"
         	app:progress_color="#00f0f0" />
+```
+
 2. Code
+```
 	1) Activity
 		ColorRatingBar colorRatingBar = new ColorRatingBar(this);
 		colorRatingBar.setRatingProgressColor(R.color.colorPrimary);
@@ -33,3 +38,6 @@ Example
 		colorRatingBar.setRatingProgressColor(R.color.colorPrimary);
 		colorRatingBar.setRatingEmptyColor(R.color.colorAccent);
 		colorRatingBar.setRating(3.0f);
+```
+
+
