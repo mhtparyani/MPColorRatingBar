@@ -1,0 +1,3 @@
+include ':ColorRatingBar'
+include ':app'
+rootProject.name = "MPColorRatingBar"
